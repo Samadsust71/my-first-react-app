@@ -1,10 +1,10 @@
 import "./App.css";
 import Actor from "./Actor";
 import Singer from "./Singer";
-// import Device from "./Device";
-// import Student from "./Student";
-// import Person from "./Person";
-// import ToDo from "./ToDo";
+import Device from "./Device";
+import Student from "./Student";
+import Person from "./Person";
+import ToDo from "./ToDo";
 
 function App() {
   const actors = ['salman','amir','shahrukh','saif','shakib']
@@ -27,13 +27,13 @@ function App() {
       singers.map(singer=><Singer key={singer.id} name = {singer.name} age={singer.age} />)
     }
 
-     {/* <ToDo task="khawa" isDone={true} />
+     <ToDo task="khawa" isDone={true} />
      <ToDo task="Snan" isDone={false}/>
      <ToDo task="Brush" isDone={false}/>
-     <ToDo task="Fresh" isDone={false}/> */}
-    {/* <Device productName="laptop" price="50000"/>
+     <ToDo task="Fresh" isDone={false}/>
+    <Device productName="laptop" price="50000"/>
     <Student />
-    <Person /> */}
+    <Person />
       {/* <Device productName="laptop" price="50000" />
       <Device productName="mobile" price="20000" />
       <Device />
